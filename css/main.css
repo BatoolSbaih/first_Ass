@@ -1,0 +1,33 @@
+body{
+    display:flex;
+    flex-direction: row;
+}
+.sidebar{
+    background-color:#f4f4f4;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    height: 450px;
+    width:200px;
+}
+.link{
+    margin-top: 5px;
+    text-decoration: none;
+    color: #000;
+}
+.menu{
+    font-weight:800;
+    margin-bottom: 5px;
+}
+.content{
+    padding: 10px;
+    width:200px;
+}
+.ads{
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+.ad{
+    margin-bottom: 100px;
+}
